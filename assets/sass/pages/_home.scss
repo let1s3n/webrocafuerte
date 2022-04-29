@@ -1,0 +1,8 @@
+body{
+  @include media-breakpoint-up(lg) {
+    background:url('/images/logo.jpeg') left top/100vw 100vh no-repeat;
+  }
+
+  background:url('/images/logo-mobile.jpeg') left top/100vw 100vh no-repeat;
+  
+}
