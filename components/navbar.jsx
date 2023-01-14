@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Navbar, NavDropdown, Container, Nav, Row, Col, Image, Button, Offcanvas } from 'react-bootstrap';
+import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
 
 
 const NavBar = () => {
