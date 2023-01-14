@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Navbar, NavDropdown, Container, Nav, Row, Col, Image, Button, Offcanvas } from 'react-bootstrap';
+import { Navbar, Container, Nav, Row, Col } from 'react-bootstrap';
 
 
 const NavBar = () => {
@@ -15,7 +15,7 @@ const NavBar = () => {
           </Col>
           <Col>
             <ul className="list-unstyled m-0 d-none d-xl-flex flex-row me-auto text-white" style={{ columnGap: 2 + 'rem' }}>
-            <li>
+              <li>
                 <Link href="/proyectos" passHref>
                   <Nav.Link>Proyectos</Nav.Link>
                 </Link>

@@ -1,21 +1,21 @@
-import React, { useEffect } from "react";
-import Link from "next/link";
+import React from "react";
 
-import { Container, Row, Col,Image} from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { ImLinkedin } from "react-icons/im";
+
 const Footer = () => {
 
   return (
     <Container fluid className="main-footer position-fixed bottom-0 text-white py-3 px-2 py-lg-5 px-lg-5">
       <Row>
         <Col xs={12} lg={2} xxl={2} className="d-flex justify-content-center align-items-center">
-          
-            <Image className="logo" src="/images/logo-alr.png" alt="ALR logo" />
 
-          
+          <Image className="logo" src="/images/logo-alr.png" alt="ALR logo" />
+
+
         </Col>
         <Col xs={12} lg={4} xxl={6} className="d-flex align-items-center justify-content-center mb-4 mb-lg-0">
-          <Row className="w-100 justify-content-md-evenly justify-content-lg-start justify-content-xxl-around" style={{rowGap:1+'rem'}}>
+          <Row className="w-100 justify-content-md-evenly justify-content-lg-start justify-content-xxl-around" style={{ rowGap: 1 + 'rem' }}>
             <Col xs="auto" className="ms-lg-3">
               <p className="m-0">
                 Planta Metalúrgica Los Rosales <br />
