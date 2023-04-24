@@ -1,8 +1,22 @@
-body{
+body {
   @include media-breakpoint-up(lg) {
-    background:url('/images/logo.jpeg') left top/100vw 100vh no-repeat;
+    background: url("/images/logo.jpeg") left top/100vw 100vh no-repeat;
   }
 
-  background:url('/images/logo-mobile.jpeg') left top/100vw 100vh no-repeat;
-  
+  background: url("/images/logo-mobile.jpeg") left top/100vw 100vh no-repeat;
+
+  .imageContainer {
+    bottom: 25px;
+    left: 75px;
+
+    @include media-breakpoint-up(md) {
+      bottom: 25px;
+      left: 200px;
+    }
+
+    @include media-breakpoint-up(xxxl) {
+      bottom: 70px;
+      left: 300px;
+    }
+  }
 }

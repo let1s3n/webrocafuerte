@@ -1,11 +1,10 @@
 @import "bootstrap/scss/functions";
-$font-family-sans-serif:'Work Sans', sans-serif;
-$body-color:#000000;
+$font-family-sans-serif: "Work Sans", sans-serif;
+$body-color: #000000;
 /* 
 
 $primary:#C3443E;
 $secondary:#2E2E2E; */
-
 
 /* $font-size-base:1rem;
 
@@ -19,6 +18,16 @@ $h6-font-size:$font-size-base; */
 /* $font-weight-bolder:800; */
 /* $enable-important-utilities:false; */
 /* $enable-negative-margins: true; */
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1920px,
+);
 
 @import "bootstrap/scss/variables";
 

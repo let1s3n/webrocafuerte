@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       {/* <Navbar /> */}
-      <main className="main-container">{children}</main>
+      <main className="main-container position-relative">{children}</main>
       <Footer />
     </>
   )
