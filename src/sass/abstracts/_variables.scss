@@ -1,0 +1,17 @@
+@import "bootstrap/scss/functions";
+$font-family-sans-serif: "Work Sans", sans-serif;
+$body-color: #000000;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1920px,
+);
+
+@import "bootstrap/scss/variables";
+
+//Typography
+$font-family-primary: $font-family-sans-serif;

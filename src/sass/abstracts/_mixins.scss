@@ -1,0 +1,33 @@
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/utilities";
+
+
+
+$utilities: map-merge(
+  $utilities, (
+    "custom-font": (
+        rfs: false,
+        responsive: true,
+        property: font-size,
+        class: custom-font,
+        values: (
+          1:$font-size-base*4.375,
+          2: $font-size-base*3.5,
+          3: $font-size-base*3
+        )
+      )
+    ),
+  );
+
+  $utilities: map-merge(
+  $utilities, (
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      ( responsive: true ),
+    ),
+  )
+);
+
+@import "bootstrap/scss/root";
+

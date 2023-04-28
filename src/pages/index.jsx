@@ -1,17 +1,10 @@
 import Head from "next/head";
-/* import Image from 'next/image' */
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
         <title>Minera Rocafuerte S.A.</title>
         <meta
           name="viewport"
@@ -30,11 +23,11 @@ export default function Home() {
 
       <div
         className="position-absolute imageContainer"
-        
       >
         <a
           className="d-block lh-1"
           href="https://www.linkedin.com/company/minera-rocafuerte-sa/"
+          target="_blank"
         >
           <Image src="/images/linkedin.png" />
         </a>
