@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Minera Rocafuerte S.A.</title>
         <meta
           name="viewport"
@@ -31,7 +31,7 @@ export default function Home() {
         >
           <Image src="/images/linkedin.png" />
         </a>
-      </div>
+      </div> */}
     </>
   );
 }
